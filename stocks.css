@@ -1,0 +1,140 @@
+#container {
+
+}
+
+body {
+background-color: #737373;
+color:white;
+font-family: 'Proza Libre', sans-serif;
+
+}
+
+table {
+}
+
+td {
+   margin-bottom: 20px !important
+}
+
+th {
+}
+
+button {
+
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  line-height: 25px;
+}
+#displaySharePrice {
+    margin-left: 30px;
+}
+
+#yesterdaysSharePrice {
+
+    margin-left: 40px;
+}
+
+
+#jbutton {
+    margin-left: 20px;
+    float: right;
+    margin-right: 70px;
+}
+
+#displayPriceDifference {
+
+    margin-left: 40px
+}
+
+#turnButton {
+
+  width: 100px;
+  float: right;
+ //margin-top:  -15px;
+}
+
+#howMuchForm {
+    background-color: black;
+    color: green;
+    margin-left:10px;
+    height:35px;
+    position: inline;
+    float: left;
+    padding-left: 5px;
+}
+
+
+#buyButton {
+    position: inline;
+    float: left;
+    margin-right: 5px;
+  }
+
+#selectbox {
+    background-color: black;
+    color: green;
+    height: 35px;
+    width: 200px;
+    position: inline;
+    float: left;
+}
+
+#sellselect {
+  background-color: black;
+  color: green;
+  height: 35px;
+  width: 200px;
+  position: inline;
+  float: left;
+  margin-top: -14px;
+  margin-left: 10px;
+}
+
+
+#sellButton {
+  position: inline;
+  float: left;
+  margin-top: -14px;
+  margin-left: 5px;
+
+}
+
+
+#displayInvent {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+#userInfo {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 1.25em;
+}
+
+#userMessages {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 1.15em;
+  margin-bottom: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: #66ff1a;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}

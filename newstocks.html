@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+<script   src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js"   integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8="   crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+
+ <link rel="stylesheet" type="text/css" href="stocks.css">
+ <script src="companies.js"></script>
+
+ </head>
+
+<body>
+
+ <div class="container">
+   <h1>JDST</h1>
+
+   <div id="userInfo"></div>
+
+   <div id="userMessages"></div>
+
+  <div id="displayShareValue"></div>
+
+    <table class="table table-bordered">
+
+    <tbody>
+
+     <th>Company</th>
+     <th>Todays Price</th>
+     <th>Yesterdays Price</th>
+     <th>Price Difference</th>
+
+    <tr>
+
+        <td><div id="displayName"></div></td>
+
+        <td><div id="displaySharePrice"></div></td>
+
+        <td><div id="yesterdaysSharePrice"></div></td>
+
+        <td><div id="displayPriceDifference"></div></td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+</div>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-10">
+
+    <button type="button" class="btn btn-success" onclick="jdBuyButton()" id="buyButton">Buy</button>
+
+    <select id="selectBox"></select>
+
+  <form>
+       <input type="text" name="howMuch" placeholder="10" id="howMuchForm" value="10">
+  </form>
+
+  <select id="sellselect"></select>
+
+    <button type="button" class="btn btn-success" onclick="sellButton()" id="sellButton">Sell</button>
+
+  </div>
+
+  <div class="col-md-2">
+
+  <button type="button" class="btn btn-success" onclick="nextTurn()" id="turnButton">Turn</button>
+  </div>
+
+</div>
+
+    <div id="displayMoney"></div>
+
+
+<div id="displayInvent">
+
+    <table class="table table-bordered">
+
+    <tbody>
+
+     <th>Company</th>
+     <th>Price Bought</th>
+     <th>Amount held</th>
+     <th>Value of shares</th>
+
+    <tr>
+
+        <td><div id="playerShareDisplay"></div></td>
+
+        <td><div id="playerShareBought"></div></td>
+
+        <td><div id="playerAmountHeld"></div></td>
+
+        <td><div id="playerShareValue"></div></td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    </div>
+
+</div>
+
+ <script src="stocks.js"></script>
+
+</body>
+
+</html>
